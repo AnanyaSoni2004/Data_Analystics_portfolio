@@ -1,53 +1,45 @@
 const base = import.meta.env.BASE_URL
 
 const projects = [
-    {
-    name: "Uber Analysis",
-    description: "Uber Analysis about the fare and driver details",
-    image: `${base}uber_analysis.png`, 
-    tags: ["Tableau"],
-    github: "https://github.com/aadit-vachher",
-    live: "https://public.tableau.com/views/UberDashboardnewwwwww/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+  {
+    name: "Loan Analytics Dashboard",
+    description: "Interactive analytical tool processing 10,000 bank loan records to evaluate risk factors, approval patterns, and loan performance. Features borrower segmentation, geographic insights, portfolio composition assessment, and risk analysis using DTI, LTV, and credit score metrics.",
+    image: `${base}Loan_Dashboard.png`,
+    tags: ["Excel", "Data Analytics"],
+    github: "https://github.com/AnanyaSoni2004/Loan-Analytics-Dashboard",
+    live: "https://github.com/AnanyaSoni2004/Loan-Analytics-Dashboard"
   },
   {
-    name: "Blinkit Dataset Analysis",
-    description: "Delivery performance dashboard showing on-time rate, delay distribution, delivery time versus distance patterns, and top delay reasons. Tracks trends by date and identifies outliers and partners driving delays to guide operational improvements.",
-    image: `${base}blinkit_dataset.png`,
-    tags: ["Looker Studio", "Data Analytics"],
-    github: "https://github.com/aadit-vachher/Blinkit_dataset_analysis",
-    live: "https://lookerstudio.google.com/reporting/812bcbe2-3de6-4e8f-ac81-69e58314562e"
+    name: "Transactions Fraud Detection",
+    description: "End-to-end fraud detection analysis using machine learning on financial transaction data. Includes Jupyter notebooks for EDA, feature engineering, and model building alongside Tableau visualizations and structured documentation with DVA-focused portfolio materials.",
+    image: `${base}Fraud_detection.png`,
+    tags: ["Python", "Jupyter", "Machine Learning", "Tableau"],
+    github: "https://github.com/AnanyaSoni2004/E_G14_TransactionsFraudDetection",
+    live: "https://github.com/AnanyaSoni2004/E_G14_TransactionsFraudDetection"
   },
   {
-    name: "Road Accidents Dashboard",
-    description: "A data analytics dashboard built on a road accidents dataset. Analyzes accident patterns, trends, and risk factors to provide actionable insights for improving road safety and infrastructure planning.",
-    image: `${base}road_accidents.png`,
-    tags: ["Google Sheets", "Data Analytics"],
-    github: "https://github.com/aadit-vachher/section-c_g-11_travel-and-infrastructure",
-    live: "https://docs.google.com/spreadsheets/d/1zT9j58xiNe1nAsE5asIWHaov_ZkFqzPzI-yWX1NfUZo/edit?usp=sharing"
+    name: "MMM Intelligence Copilot",
+    description: "Multi-agent AI system for Marketing Mix Modeling analysts. Enables natural language querying of MMM models with four specialized agents (Analyst, Forecast, RAG Insight, Anomaly Detection) and three-layer guardrails. Built with LLaMA 3.3 70B via Groq, ChromaDB, FastAPI, and Pydantic v2.",
+    image: `${base}mmm_proj.png`,
+    tags: ["Python", "GenAI", "FastAPI", "LLaMA"],
+    github: "https://github.com/AnanyaSoni2004/MMM-Intelligence-Copilot",
+    live: "https://github.com/AnanyaSoni2004/MMM-Intelligence-Copilot"
   },
   {
-    name: "Second Brain",
-    description: "A digital space to capture ideas, organize thoughts, and retrieve information. Built with Node.js, Prisma, and PostgreSQL with JWT authentication. Features include protected routes, database relationships, and a structured knowledge system.",
-    image: `${base}secnod_brains.png`,
-    tags: ["Node.js", "PostgreSQL", "Prisma"],
-    github: "https://github.com/aadit-vachher/second-brain",
-    live: "https://second-brain-orcin.vercel.app"
+    name: "Crop Yield Prediction",
+    description: "ML system predicting agricultural productivity from environmental and soil conditions. Trained on 30,000 samples with a Scikit-learn Linear Regression model, interactive Streamlit UI with parameter sliders, and yield classification (Low/Medium/High). Milestone 1 of a broader agentic agricultural advisory system.",
+    image: `${base}Agroagent.png`,
+    tags: ["Python", "Machine Learning", "Streamlit", "Scikit-learn"],
+    github: "https://github.com/AnanyaSoni2004/Crop_Yield_Prediction",
+    live: "https://github.com/AnanyaSoni2004/Crop_Yield_Prediction"
   },
   {
-    name: "Expense Tracker",
-    description: "Helps users monitor spending habits and gain better control over personal finances through structured tracking. Built with React.js, Express, Prisma ORM, and JWT authentication with a clean modular backend structure.",
-    image: `${base}expense_tracker.png`,
-    tags: ["React", "Express", "Prisma"],
-    github: "https://github.com/aadit-vachher/project_expense_tracker",
-    live: "https://expense-tracker-main-frontend.netlify.app"
-  },
-  {
-    name: "SAB Applier",
-    description: "A document upload portal built with JavaScript. Allows users to submit and manage documents through a clean, intuitive interface with structured form handling and file upload functionality.",
-    image: `${base}project-sabapplier.png`,
-    tags: ["JavaScript"],
-    github: "https://github.com/aadit-vachher/sabapplier",
-    live: "https://sabapplier.netlify.app"
+    name: "QuickAI",
+    description: "Production-grade AI SaaS platform integrating OpenAI and Replicate APIs for content and image generation. Features JWT authentication, subscription billing, and scalable architecture. Built with JavaScript and deployed on Vercel.",
+    image: `${base}QuickAi.png`,
+    tags: ["JavaScript", "React", "Node.js", "GenAI"],
+    github: "https://github.com/AnanyaSoni2004/QUICK_AI_Project",
+    live: "https://quick-ai-project-delta.vercel.app"
   }
 ]
 
